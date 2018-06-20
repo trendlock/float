@@ -1,6 +1,6 @@
 ---
-title: "HTML Markdown Template"
-author: "Author"
+title: "Markdown with Floating logo"
+author: "Ross"
 date: "`r Sys.Date()`"
 output: 
   html_document:
