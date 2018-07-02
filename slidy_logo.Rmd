@@ -1,0 +1,64 @@
+---
+title: "Untitled"
+author: "Ross"
+date: "02/07/2018"
+output: 
+  slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+l <- function() {
+  paste0('
+<slide class="" id="">
+<hgroup>
+
+</hgroup>
+<article>
+
+<footer class = "logo">
+<div style="position: absolute; left: 1500px; top: 0px; z-index:100">
+<img src = "imgs/YSI.png" height="80" width="80">
+</div>
+</footer>
+</article>
+</slide>
+')
+}
+
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+`r l()`
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+`r l()`
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+`r l()`
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+
+
+```
+
+`r l()`
